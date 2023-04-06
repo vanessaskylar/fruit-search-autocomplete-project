@@ -24,7 +24,6 @@ function removeElements() {
 }
 
 function showSuggestions(results, inputValue) {
-
 	results.forEach(function(result){
 
 		let startIdx = result.toLowerCase().indexOf(inputValue);

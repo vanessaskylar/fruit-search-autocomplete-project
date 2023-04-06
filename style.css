@@ -10,10 +10,6 @@ body {
   background: linear-gradient(90deg, rgb(143, 227, 255) 20%, rgb(12, 55, 164))
 }
 
-input {
- /* TODO */
-}
-
 .search-container {
   width: 45vmin;
   position: absolute;
@@ -30,7 +26,6 @@ input {
   border: none;
   z-index: 2;
 }
-
 
 input:focus {
   box-shadow: 3px 4px 5px black;
