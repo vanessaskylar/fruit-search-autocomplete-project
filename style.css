@@ -7,7 +7,7 @@
 
 body {
   height: 100vh;
-  background: linear-gradient(90deg, rgb(143, 227, 255) 20%, rgb(12, 55, 164))
+  background: linear-gradient(90deg, rgb(143, 227, 255) 20%, rgb(12, 55, 164));
 }
 
 .search-container {
@@ -21,28 +21,35 @@ body {
 input {
   width: 100%;
   font-size: 16px;
-  padding: 14px 10px;
+  padding: 14px 20px;
   background-color: whitesmoke;
   border: none;
-  z-index: 2;
 }
 
 input:focus {
   box-shadow: 3px 4px 5px black;
 }
 
+
 ul {
   width: 100%;
   background-color: whitesmoke;
   list-style: none;
   position: fixed;
+  max-height: 40vh;
+  overflow-y: auto;
 }
 
 ul li {
-  padding: 8px;
+  padding: 10px 20px;
+
 }
 
 ul li:hover {
+  background-color: #c1c1c1;
+}
+
+.highlight {
   background-color: #c1c1c1;
 }
 
