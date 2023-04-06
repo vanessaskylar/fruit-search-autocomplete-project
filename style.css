@@ -11,7 +11,7 @@ body {
 }
 
 .search-container {
-  width: 45vmin;
+  width: 40vmin;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -24,6 +24,7 @@ input {
   padding: 14px 20px;
   background-color: whitesmoke;
   border: none;
+  /* border-radius: 25px; */
 }
 
 input:focus {
@@ -37,6 +38,7 @@ input:focus {
   overflow-y: auto;
   background-color: whitesmoke;
   list-style: none;
+  /* border-radius: 25px; */
 }
 
 
